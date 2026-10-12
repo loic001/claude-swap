@@ -258,6 +258,8 @@ cswap menubar --uninstall-service   # stop it and remove the plist
 
 The agent lives at `~/Library/LaunchAgents/com.cswap.menubar.plist` and logs to `~/Library/Logs/com.cswap.menubar.{log,err}`. It pins the `cswap` console script, whose path survives an upgrade — but the running process keeps the old build until it restarts, so after `cswap upgrade` either re-run `--install-service` or `launchctl kickstart -k gui/$(id -u)/com.cswap.menubar`.
 
+**Prefer a native `.app`?** [cswap-bar](https://github.com/loic001/cswap-bar) is a community-maintained Swift/SwiftUI menu bar built on `cswap list --json`, `cswap switch` and `cswap auto --once`: no Python in the status item, launch at login without a launchd plist. Issues go to its own repo.
+
 </details>
 
 ## Advanced
