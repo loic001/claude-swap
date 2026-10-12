@@ -1,0 +1,19 @@
+README.md
+  s_17dbe9a9518ab5::t_c0bbcea05c56e2 261-262
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "654f4a8d6c1c3d9439a572cc7af2806c749f9f5e",
+  "prompts": {},
+  "sessions": {
+    "s_17dbe9a9518ab5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "s_17dbe9a9518ab5",
+        "model": "unknown"
+      },
+      "human_author": "Loïc DELOBEL <loic.delobel@gmail.com>"
+    }
+  }
+}
